@@ -189,6 +189,8 @@
       </then>
     </if>
 
+    <copy file="${app.basedir}\res\winmm.dll" todir="${curpath}" overwrite="true"/>
+
   </target>
 
 </project>
